@@ -1,0 +1,133 @@
+form{
+    background-image: url("C:\Users\Hp\Desktop\WEB DEVELOPMENT\first html file\blue background.jfif");
+    background-position:absolute;
+    background-repeat:no-repeat;
+    background-attachment:fixed;
+    background-color: lightgreen;  
+    
+    padding:50px;
+    padding-top:40px;
+    padding-left:20px;
+    padding-right:40px;
+    padding-bottom:20px;
+
+    border:solid;
+    border:2px dotted;
+    border: medium dashed green;
+    border-color:revert;
+
+    margin-top:100px;
+    margin-right:100px;
+    margin-left:100px;
+    margin-bottom:100px; 
+}    
+.container
+{
+    position:relative;
+    text-align:center;
+    color:white;
+}
+span{
+    padding-top:50px;
+    padding-right:20px;
+    padding-left:10px;
+    padding-bottom:50px;
+} 
+table{
+    background-image: url("C:\Users\Hp\Desktop\WEB DEVELOPMENT\first html file\Travel Logo.png");
+}
+h1{
+    font-size: 1.8em;
+    color: Darkblue;
+    text-indent: 1em;
+    font-family:arial;
+}
+h4 {
+    font-family:arial;
+    font-size:25px;
+    color:darkblue; 
+}
+style{
+    font-family:arial;
+    font-size:50px;
+    color:rgb(142, 107, 189); 
+}
+div{
+    padding: 2px;
+    padding-top:10px;
+    padding-right:10px;
+    padding-left:20px;
+    padding-bottom:20px;
+
+    margin-top:25px;
+    margin-right:10px;
+    margin-left:25px;
+    margin-bottom:25px;
+} 
+.navbar{
+overflow:hidden;
+background-color:#333;
+}
+.navbar a{
+float:left;
+font-size:16px;
+color:white;
+text-align:center;
+padding:14px  16px;
+text-decoration: none;
+}   
+.dropdown
+{
+    position:absolute;
+    display:inline-block; 
+    z-index:2;
+}
+.dropdown .newbutton{
+    font-size :16px;
+    border:none;
+    outline:none;
+    color:white;
+    padding:14px 16px;
+    background-color:inherit;
+    font-family:inherit;
+}   
+.dropdown-content{
+   display:none;
+   position:absolute;
+   background-color:#f9f9f9;
+   width:120px;
+}
+.dropdown-content a{
+    color:black;
+    padding:12px 16px; 
+    text-decoration:none;
+    text-align:left;
+    z-index: -1;
+}
+.uo:hover .dropdown-content
+{
+    display: block;
+}
+.dropdown:hover .dropdown-content{
+    float:left;
+    overflow:hidden;
+    display: block;
+}
+.dropdown-content a:hover{
+    background-color:aqua;
+}
+form{
+    padding-top:50px;
+    padding-right:50px;
+    padding-left:50px;
+    padding-bottom:50px;
+} 
+div{
+    font-size:25px;
+    font-family:arial;
+    font-size:x-large;
+}
+.drop-item{
+    background-color:aqua;
+    font-size:30px;
+}
