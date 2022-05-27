@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>REGISTERING FOR FLIGHT</title> 
+    <link rel="stylesheet" href="modified.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script>
+       function start()
+       {
+          window.getelementByid="exampleInputEmail".innerHTML="Enter your email address"
+       }
+      function myfunction()
+      {
+       window.alert("you Registered successfully");
+      }
+      window.addEventListener("load",start,false);
+    </script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script> 
+</head>
+<body>  
+ <div class="container">
+    <div class="row register">
+      <div class="card login-form">
+         <div class="card-body">
+            <h1 class="card-title text-center">REGISTER</h1>
+            <div class="card-text">
+         <div class="form-group">NAME:</div>
+            <div class="col-md-9">
+                <input type="text" class="form-control" name="name" placeholder="Enter your name">
+             </div>
+             <label class="password">PASSWORD:</label>
+             <div class="col-md-9">
+               <input type="password" class="form-control" name="password" placeholder="Enter your password">
+               <small>password must be 6 character*</small>
+            </div>
+            <label class="password">CONFIRM PASSWORD:</label>
+            <div class="col-md-9">
+              <input type="password" class="form-control" name="password" placeholder="Reenter the password">
+           </div>
+          <div class="col-md-9">
+          <label for="country">SELECT COUNTRY:</label>
+             <select name="country" id="country" class="form-control">
+              <option value="india">INDIA</option>
+              <option value="usa">USA</option>
+              <option value="uk">UK</option> 
+              <option value="france">FRANCE</option>
+              <option value="germany">GERMANY</option>
+              <option value="ITALY">ITALY</option>
+             </select>
+          </div>
+         <div class="form-group">
+            <label for="age">AGE:</label>
+               <select name="age" id="age" class="form-control">
+                  <option value="select age">Select</option>
+                  <option value="18-25">18-25</option>
+                  <option value="25-50">25-50</option>
+                  <option value="above 50">above 50</option>
+               </select>     
+         </div>
+         <div class="form-group">
+            <label for="date">DATE OF BIRTH:</label>
+           <input type="date" class="form-control"  id="date">
+         </div>
+         <div class="form-group">
+            <label for="gender">GENDER:</label>
+            <select name="gender" id="gender" class="form-control">
+               <option>MALE</option>
+               <option>FEMALE</option>
+            </select>
+         </div>
+         <div class="phone">
+            <label for="phone">PHONE NUMBER:</label>
+            <input type="phone" class="form-control" placeholder="enter your phone number">
+         </div>
+               <input type="checkbox" id="accept-terms">
+               <label for="accept-terms">Accept-Terms & Condition</label></br> 
+               <button type="submit" onclick="myfunction()"  value="Submit form" class="btn btn-dark btn-block">
+                  SIGNUP
+               </button>
+               <button type="reset" class="btn btn-primary btn-block">RESET</button>  
+                  <div class="form-group from-check">
+                  </div>
+         </form>   
+       </div> 
+     </div>
+   </div>
+ </div>
+</div>
+</body>
+</head>
+</html>
