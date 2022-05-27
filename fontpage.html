@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Document</title> 
+    <link rel="stylesheet" href="fontpage.css"> 
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js">
+      require("launch.json");
+    </script>
+    <script type="text/javascript">
+      function start()
+      {
+        document.getElementById("mouse").addEventListener("mousemove",moveone,false);
+        document.getElementById("mouse").addEventListener("mouseout",leaveout,false);
+        document.getElementById("move1").addEventListener("mousemove1",moveo,false);
+        document.getElementById("move1").addEventListener("mouseout2",mouseo,false);
+      }
+      function moveone(){
+        document.getElementById("mouse").innerHTML="YOU HAVE TO LOGIN";
+      }
+      function leaveout(){
+        document.getElementById("mouse").innerHTML="LOGIN";
+      }
+      function moveo(){
+        document.getElementById("move1").innerHTML="Flight Booking System"; 
+      }
+      function mouseo(){
+        document.getElementById("move1").innerHTML="FBS"
+      }
+      window.addEventListener("load",start,false);
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>   
+</head>
+<body>  
+<nav class="navbar navbar-expand-lg navbar-light bg-warning">
+ <div class="container-fluid">
+  <img src="C:\\Users\\SUDHAN ED\\3D Objects\\india1.png" alt="print nothing" width="120px" height="150px">
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-ts-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbar"> 
+    <div class="col-md-2">
+      <a class="nav-link" href="#">HOME</a>
+    </div>
+     <div class="col-md-2">
+        <a class="nav-link" href="#">NEWS</a>
+     </div> 
+    <div class="col-md-2">
+     <a class="nav-link" href="file:///C:/Users/SUDHAN%20ED/3D%20Objects/bootstrap.html" id="mouse" onmousemove="moveone()">LOGIN</a>
+    </div>
+   <div class="col-md-2">
+    <ul>
+    <li class="nav-item dropdown">
+      <a class="nav-link dropdown-toggle" href="#" id="passport" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        PASSPORT
+      </a>
+      <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+        <a class="dropdown-item"  href="file:///C:/Users/SUDHAN%20ED/3D%20Objects/domesticflight.html"><i>DOMESTIC</i></a>
+        <a class="dropdown-item" href="#">Another action</a>
+        <div class="dropdown-divider"></div>
+        <a class="dropdown-item" href="#">Something else here</a>
+      </div>
+     </li>
+    </ul>
+  </div>
+<div class="col-md-2">
+  <form class="form-inline my-2 my-md-0">
+    <input class="form-control" type="search" placeholder="Search" aria-label="Search">
+    <button class="btn btn-outline-success" type="submit">Search</button>
+  </form>
+</div> 
+   </div>
+</div>
+</nav>
+<div class="bg-default">
+  <img src="C:\Users\SUDHAN ED\3D Objects\online flight.jfif"alt="flight" width="1400px" height="1000px"> 
+</div>
+<nav><h1  class="bg-warning" id="move1" onmousemove="moveo"><style text-align='center'></style>FLIGHT BOOKER</h1></nav>
+<p>The flight booking system for people to travel places to enjoy and safely.Air line flight passengers can check in from the comfort.
+Air line also offers business class passengers lounge facilities at various places.Indain national regards of foreign residency status
+can only travel from India to UK,Ireland and cayman Islands and must hols a valid visa,India nationals cannot travel further to any
+any other countries unless their values</p>
+<div class="fluid-container">
+  <div class="row">
+    <div class="col-md-4">
+      <div class="card"> 
+        <img src="background image.jpg" class="rounded" alt="new" width="250px" height="250px">
+          <div class="card-title"><i>Business Deals</i></div>
+            <p class="card-text">
+             <i>Experience our lie flat beds with linen and bedding from The White Company. Cozy up while watching the latest in entertainment
+             </i></p> 
+          </div>
+      </div>  
+      <div class="col-md-4">
+        <div class="card"> 
+          <img src="C:\Users\SUDHAN ED\3D Objects\travel logo.png" class="rounded" alt="new" width="250px" height="250px">
+           <div class="card-title">Tourist places</div>
+             <p class="card-text">
+              Experience our lie flat beds with linen and bedding from The White Company. Cozy up while watching the latest in entertainment
+             </p>  
+            </div>  
+        </div>
+      </div>  
+    <div class="col-md-4">
+      <div class="card"> 
+        <img src="C:\Users\SUDHAN ED\OneDrive\Pictures\passenger image.jpg"  class="rounded" alt="new" width="250px" height="250px">
+        <div class="card-title">Photography</div>
+          <p class="card-text">
+          Experience our lie flat beds with linen and bedding from The White Company. Cozy up while watching the latest in entertainment
+          </p> 
+        </div>
+      </div> 
+    </div>
+  </div>
+</div>
+</div>
+<footer>
+   <body>   
+    <nav class="navbar navbar-expand-lg navbar-light bg-warning">
+        <a href="C:\Users\SUDHAN ED\3D Objects\contact.html">CONTACT</a>
+        <a href="special">JOIN THE COMMUNITY</a> 
+        <a href="C:\Users\SUDHAN ED\3DObjects\domesticflight.html">SUPPORT AS</a> 
+    </nav> 
+   </body> 
+ </footer> 
+ </body>
+</html>
